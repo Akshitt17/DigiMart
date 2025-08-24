@@ -1,0 +1,67 @@
+/* Page container & titles */
+.stock-management-container {
+  padding: 2.5rem 0;
+}
+
+.page-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.page-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+
+/* Card styling */
+.custom-card {
+  border: none;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  background: #fff;
+}
+
+.card-header-custom {
+  background: linear-gradient(135deg, #1976d2, #42a5f5);
+  color: white;
+  font-weight: 600;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+/* Table styling */
+.stock-table th {
+  background-color: #f1f3f5;
+}
+
+.stock-table td, .stock-table th {
+  vertical-align: middle;
+}
+
+/* Action Buttons */
+.update-btn {
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.update-btn:hover {
+  background-color: #1976d2;
+  color: white;
+}
+
+/* Modal styling */
+.modal-title {
+  font-weight: 600;
+}
+
+.save-btn {
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.save-btn:hover {
+  background-color: #1565c0;
+}

@@ -1,0 +1,85 @@
+/* Page container */
+.checkout-container {
+  padding: 2.5rem 0;
+}
+
+/* Title */
+.checkout-title {
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Section headers */
+.section-title {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Address dropdown */
+.address-select {
+  border-radius: 6px;
+  padding: 0.6rem;
+  font-weight: 500;
+}
+
+/* Order Items */
+.order-items-list .order-item {
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 0.95rem;
+  padding: 1rem 0.75rem;
+}
+
+/* Order Summary Card */
+.order-summary-card {
+  border: none;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.order-summary-card .card-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.order-summary-card .list-group-item {
+  border: none;
+  font-size: 0.95rem;
+  padding: 0.75rem 0;
+}
+
+/* Highlight total */
+.total-row {
+  font-size: 1.05rem;
+  border-top: 1px solid #e9ecef;
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+}
+
+/* Place Order Button */
+.place-order-btn {
+  font-weight: 600;
+  padding: 0.65rem 1.2rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+.place-order-btn:hover {
+  background: #0d47a1 !important;
+}
+
+/* Alerts */
+.alert {
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .checkout-title {
+    font-size: 1.5rem;
+  }
+  .order-summary-card {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,175 @@
+/* --- Page Layout --- */
+.device-management-container {
+  padding: 2.5rem 0;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.device-management-container h1 {
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #1a237e; /* Deep Indigo */
+}
+
+/* --- Cards --- */
+.device-card {
+  border: none;
+  border-radius: 0.9rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.device-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.device-card .card-header {
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
+  padding: 1rem 1.2rem;
+}
+
+/* --- Search Bar --- */
+.input-group {
+  border-radius: 7px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.input-group-text {
+  background: #f5f6fa;
+  border: none;
+}
+
+.input-group .form-control {
+  border: none;
+  font-size: 0.95rem;
+  padding: 0.65rem;
+}
+
+/* --- Table (DeviceList) --- */
+.table {
+  font-size: 0.95rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #eceff1;
+  font-weight: 600;
+  color: #2f3640;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.75rem;
+}
+
+.table img {
+  border-radius: 6px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+/* --- Buttons --- */
+.btn {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.btn-outline-primary {
+  border-color: #1976d2;
+  color: #1976d2;
+}
+.btn-outline-primary:hover {
+  background: #1976d2;
+  color: #fff;
+}
+
+.btn-outline-danger {
+  border-color: #d32f2f;
+  color: #d32f2f;
+}
+.btn-outline-danger:hover {
+  background: #d32f2f;
+  color: #fff;
+}
+
+button[type="submit"].btn-primary {
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  background-color: #1976d2;
+  border: none;
+}
+button[type="submit"].btn-primary:hover {
+  background-color: #0d47a1;
+}
+
+/* --- Forms (Create/Edit) --- */
+form label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+form .form-control {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 0.6rem;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+
+form .form-control:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 4px rgba(25, 118, 210, 0.3);
+}
+
+/* --- Modals --- */
+.modal-content {
+  border-radius: 0.8rem;
+  border: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+  background: #1a2a6c;
+  color: #fff;
+  font-weight: 600;
+}
+
+.modal-title {
+  font-size: 1.1rem;
+}
+
+.modal-footer .btn {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .device-management-container h1 {
+    font-size: 1.6rem;
+  }
+  .table img {
+    width: 45px;
+    height: 45px;
+  }
+  .btn {
+    margin-bottom: 0.35rem;
+  }
+}

@@ -1,0 +1,74 @@
+/* Main container */
+.dashboard-container {
+  padding: 3rem 0;
+}
+
+/* Title and subtitle */
+.dashboard-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+
+/* Card styling */
+.dashboard-card {
+  border: none;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* Card top icon section */
+.card-icon {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: white;
+}
+
+/* Themed icon backgrounds */
+.blue-theme.card-icon { background-color: #1976d2; }
+.green-theme.card-icon { background-color: #388e3c; }
+.orange-theme.card-icon { background-color: #f57c00; }
+
+/* Card title and text */
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+/* Buttons */
+.dashboard-btn {
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+
+.dashboard-btn.blue-theme { background-color: #1976d2; color: white; }
+.dashboard-btn.green-theme { background-color: #388e3c; color: white; }
+.dashboard-btn.orange-theme { background-color: #f57c00; color: white; }
+
+.dashboard-btn:hover {
+  opacity: 0.9;
+}

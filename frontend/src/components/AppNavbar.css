@@ -1,0 +1,89 @@
+/* Navbar with gradient */
+.custom-navbar {
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+  padding: 0.7rem 1rem;
+}
+
+/* Brand text */
+.brand-text {
+  font-weight: 700;
+  color: white !important;
+  font-size: 1.3rem;
+  letter-spacing: -0.5px;
+}
+
+.custom-toggler {
+  background-color: white;
+  border: none;
+}
+
+/* Links */
+.nav-link-custom {
+  color: white !important;
+  margin-left: 0.8rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #ffeb3b !important; /* yellow hover */
+  text-decoration: underline;
+}
+
+/* Base Auth Button */
+.btn-auth {
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: 8px;
+  margin-left: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem; /* spacing between icon + text */
+  transition: all 0.25s ease;
+}
+
+/* Login Button - Glassy outline */
+.login-btn {
+  background: transparent;
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+  backdrop-filter: blur(6px);
+}
+.login-btn:hover {
+  /* background: rgba(255, 255, 255, 0.15); */
+  border-color: #fff;
+  color: #f1f1f1;
+  transform: translateY(-1px);
+}
+
+/* Register Button - Strong CTA */
+.register-btn {
+  background: #fdbb2d;
+  border: none;
+  color: #1a1a1a;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.register-btn:hover {
+  background: #ffca3a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Logout Button - Danger button */
+.logout-btn {
+  background: #b21f1f;
+  color: #fff;
+  border: none;
+}
+.logout-btn:hover {
+  background: #931717;
+  transform: translateY(-2px);
+}
+/* Responsive */
+@media (max-width: 991px) {
+  .btn-auth {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}

@@ -1,0 +1,40 @@
+.cart-page-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.cart-card {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+}
+
+.cart-empty-card {
+  max-width: 400px;
+  margin-top: 10vh;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+/* Quantity Input Style */
+.cart-qty-input {
+  width: 60px;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.cart-qty-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+.cart-qty-input::-webkit-inner-spin-button,
+.cart-qty-input::-webkit-outer-spin-button {
+  opacity: 1; /* If you want visible up/down arrows */
+}

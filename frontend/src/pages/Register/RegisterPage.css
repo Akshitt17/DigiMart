@@ -1,0 +1,30 @@
+/* Full screen flex center */
+.register-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+}
+
+/* Card styling */
+.register-card {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: none;
+}
+
+/* Button */
+.register-btn {
+  background-color: #1a2a6c;
+  border: none;
+  font-weight: 500;
+}
+
+.register-btn:hover {
+  background-color: #163772;
+}

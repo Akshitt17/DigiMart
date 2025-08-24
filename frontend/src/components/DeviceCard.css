@@ -1,0 +1,36 @@
+.device-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  background-color: #ffffff;
+}
+
+.device-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.device-img {
+  height: 200px;
+  object-fit: cover;
+  /* width: auto; */
+}
+
+.device-title {
+  font-weight: 600;
+  color: #1a2a6c;
+}
+
+button.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+button.btn-success:hover {
+  background-color: #218838;
+}
+
+button.btn-outline-dark:hover {
+  background-color: #1a2a6c;
+  color: white;
+}

@@ -1,0 +1,36 @@
+/* Homepage overall wrapper */
+.homepage-wrapper {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Hero banner */
+.homepage-hero {
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Make hero text stand out */
+.homepage-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.homepage-hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Card hover effect for device listing */
+.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cursor {
+  cursor: pointer;
+}

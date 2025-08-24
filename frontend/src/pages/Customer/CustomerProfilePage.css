@@ -1,0 +1,73 @@
+/* Page container */
+.customer-profile-container {
+  padding: 2.5rem 0;
+}
+
+/* Page title */
+.customer-profile-container h1 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Card styling */
+.customer-card {
+  border: none;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+}
+
+/* Card header */
+.customer-card .card-header {
+  background: linear-gradient(135deg, #1976d2, #42a5f5);
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  color: white;
+  font-weight: 600;
+}
+
+/* Card body */
+.customer-card .card-body {
+  padding: 1.5rem;
+}
+
+/* Profile details text */
+.customer-card p {
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-outline-primary {
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+/* Forms */
+form label {
+  font-weight: 500;
+}
+
+form input {
+  border-radius: 6px;
+  padding: 0.6rem;
+}
+
+/* Error alerts inside forms */
+.card-body .alert {
+  margin-bottom: 1rem;
+}
+
+/* Create profile form notes */
+.text-muted {
+  font-size: 0.9rem;
+}
+
+/* Responsive layout tweak */
+@media (max-width: 992px) {
+  .customer-profile-container .col-lg-4,
+  .customer-profile-container .col-lg-8 {
+    margin-bottom: 1.5rem;
+  }
+}
